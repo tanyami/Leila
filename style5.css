@@ -1,0 +1,416 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+h2 {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.5;
+}
+.header {
+	background: url(img/bg.png) no-repeat;
+	background-size: cover;
+	padding: 20px 0px; 
+}
+.navbar-header-logo img {
+	height: 30px;
+}
+.navbar-default-nav  {
+	border-width: 0px;
+	margin-bottom: 50px;
+	background: transparent;
+	box-shadow: none;
+}
+.navbar-default .navbar-nav-active li a {
+	color: white;
+    font-size: 12px;
+}
+.navbar-default-nav .navbar-nav li a:hover{
+	color: red;
+	border: 1px solid red;
+	border-radius: 30px; 
+}
+.input-group-search {
+	width: 40%;
+	margin: auto;
+}
+.form-control-btn {
+	border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: grey;
+    font-size: 11px;
+}
+.input-group-btn-btn .btn-default-btn {
+	border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: #f03c6f;
+    border-color: #f03c6f;
+    font-size: 11px;
+    color: #fff;
+    text-shadow: none;
+    padding: 8px 9px 9px 9px;
+}
+.jumbotron-welcome {
+	margin: auto;
+	text-align: center;
+	color: #fff;
+	background: transparent;
+}
+.jumbotron-welcome h1 {
+	font-size: 24px;
+	font-weight: bold;
+	
+}
+.jumbotron-welcome p {
+	font-size: 13px;
+	margin-top: 20px;
+}
+.question {
+	width: 45%;
+	position: relative;
+	margin: auto;
+	font-size: 12px;
+	height: 240px;
+	padding-top: 50px;
+	line-height: 1.5;	
+}
+.question-left {
+	position: relative;
+	top: 0px;
+	left: -30px;
+	border-radius: 10px;
+	background: #fff;
+	padding: 15px 15px 15px 25px;
+}
+.question-left img {
+    position: absolute;
+    top: 5px;
+    left: -35px;
+    width: 55px;
+}
+.question-right {
+	position: relative;
+    bottom: -30px;
+    right: -30px;
+    border-radius: 10px;
+    background: #fff;
+    padding: 15px 25px 15px 15px;
+
+}
+.question-right img {
+	position: absolute;
+	top: 4px;
+	right: -35px;
+	width: 55px;
+}
+.main {
+	padding-top: 50px;
+}
+.container-main {
+	width: 60%;
+}
+.images img {
+	width: 100%;
+}
+.jumbotron-main {
+	font-weight: bold;
+	background: #fff;
+	padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.jumbotron-patterns	img {
+	width: 20%;
+}
+.jumbotron-main img {
+	width: 20%;
+}
+.jumbotron-main p {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.jumbotron-main a {
+	font-size: 10px;
+	color: red;
+	border: none;
+	background: transparent;
+	text-decoration: underline;
+	padding: 0px;
+}
+.jumbotron-patterns {
+	
+	font-weight: 800;
+	background: #fff;
+}
+.jumbotron-patterns p {
+	font-size: 12px;
+}
+.jumbotron-patterns a {
+	font-size: 12px;
+	color: #fff;
+	border-color: #f03c6f;
+	background: #f03c6f;
+	border-radius: 15px;
+}
+.container-video {
+	width: 60%;
+	
+	text-align: center;
+}
+.video {
+	margin-bottom: 40px;
+}
+.help {
+	margin-bottom: 20px;
+}
+
+.help p {
+	font-size: 12px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.help img {
+	width: 100%;
+	
+} 
+.help-col {
+	width: 90%;
+	position: relative;
+}
+.help-col img {
+	width: 25px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.help-col h3 {
+	text-align: left;
+	position: relative;
+	top: 0px;
+	left: 45px;
+	width: 80%;
+	font-size: 14px;
+	font-weight: bold;
+}
+.help-col p {
+	text-align: left;
+	position: relative;
+	top: 5px;
+	left: 45px;
+	width: 80%;
+	font-size: 12px;
+}
+.hand img {
+	width: 35px;
+}
+.integration {
+	background: #f0f0f0;
+	padding-top: 40px;
+}
+.container-integration {
+	width: 60%;
+	font-size: 12px;
+}
+.column-left {
+	width: 80%;
+}
+.column-left p {
+	width: 80%;
+	margin-top: 20px; 
+}
+.column-left span {
+	font-style: italic;
+}
+.column-right img{
+	width: 100%;
+}
+.sales {
+	padding: 40px 0px;
+}
+.container-sale {
+	width: 60%;
+	text-align: center;
+}
+.container-sale img {
+	width: 100%;
+}
+.footer {
+	background: #f0f0f0;
+
+}
+.footer-logo img {
+	height: 25px;
+
+}
+.container-footer {
+	width: 70%;
+	font-size: 12px;
+	padding: 40px 0px;
+	margin: auto;
+
+}
+.partner {
+	text-align: left;
+}
+.social {
+	float: right;
+	padding-top: 15px;
+}
+.social ul {
+	clear: both;
+	display: table;
+}
+.social ul li {
+	float: left;
+}
+.social ul li i {
+	padding-left: 25px;
+	color: grey;
+}
+.terms {
+	float: right;
+	clear: both;
+	display: table;
+}
+.terms ul li {
+	float: left;
+	padding-left: 30px;
+}
+.bytoby p{
+	margin: auto; 
+}
+
+
+@media (max-width: 425px){
+.welcome {
+	padding: 0px;
+	margin-bottom: 0px;
+}
+.welcome-heading h1 {
+    font-size: 18px;
+}
+.welcome-heading p {
+    font-size: 10px;
+}
+.question {
+    width: 45%;
+    font-size: 10px;
+    height: 220px;
+}
+.question-left {
+	padding: 10px 10px 10px 20px;
+}
+.question-left img {
+    top: 2px;
+    left: -30px;
+    width: 45px;
+}
+.question-right {
+	padding: 10px 20px 10px 10px;
+}
+.question-right img {
+	top: 5px;
+    right: -31px;
+    width: 40px;
+}
+.input-group-search {
+    display: none;
+}
+.jumbotron-main a {
+    font-size: 8px;
+}
+.container-footer {
+    padding: 20px 0px;
+    margin: auto;
+}
+.col {
+	margin: 20px 0px;
+}
+.bytoby p{
+	margin: 20px 0px;
+	text-align: left;
+}
+.social {
+	float: left;
+}
+.social ul li i {
+    margin-left: 0px;
+    margin-right: 15px;
+}
+
+.terms ul li {
+	margin-left: 0px;
+	margin-right: 15px;
+}
+.terms {
+	float: left;
+}
+}
+@media (max-width: 768px){
+
+.help-col {
+	padding-bottom: 15px;
+}
+.social {
+    float: left;
+}
+.social ul li i {
+	padding-left: 0px;
+	padding-right: 15px;
+}
+.bytoby p{
+	bottom: 0px;
+	text-align: left;
+}
+.terms {
+    float: left;    
+}
+.terms ul li{
+	float: left;
+	padding-top: 15px;
+	padding-right: 30px;
+	padding-left: 0px;
+}
+}
+
+
